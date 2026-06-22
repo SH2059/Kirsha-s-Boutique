@@ -1,0 +1,18 @@
+shreeharan_db_user
+7aRIMt6HU8fQRoN3
+
+connection string compass :
+
+mongodb+srv://shreeharan_db_user:7aRIMt6HU8fQRoN3@cluster0.s5yivib.mongodb.net/
+
+
+connection string node.js
+
+mongodb+srv://shreeharan_db_user:7aRIMt6HU8fQRoN3@cluster0.s5yivib.mongodb.net/?appName=Cluster0
+
+JWT_SECRET=onLineSalesInternational2026
+
+{
+    "email": "admin@kirshasboutique.com",
+    "password": "123456"
+}
