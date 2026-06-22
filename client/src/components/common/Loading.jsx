@@ -7,6 +7,10 @@ function Loading() {
                 role="status"
             />
             
+            <p className="mt-2">
+                Loading products...
+            </p>
+            
         </div>
     );
 }

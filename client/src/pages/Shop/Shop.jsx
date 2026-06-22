@@ -14,6 +14,8 @@ import {
 
 import ProductCard from '../../components/products/ProductCard';
 
+import Loading from '../../components/common/Loading';
+
 function Shop() {
 
     const dispatch = 
@@ -105,6 +107,10 @@ function Shop() {
                 </div>
                 
             </div>
+
+            {
+                loading && <Loading />
+            }
 
             {
                 !loading && 
