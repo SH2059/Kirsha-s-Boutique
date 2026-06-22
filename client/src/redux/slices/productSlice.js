@@ -11,9 +11,11 @@ import {
 export const fetchProducts = 
     createAsyncThunk(
         'products/fetchProducts',
-        async () => {
+        async (params = {}) => {
 
-            return await getProducts();
+            return await getProducts(
+                params
+            );
 
         }
     );
